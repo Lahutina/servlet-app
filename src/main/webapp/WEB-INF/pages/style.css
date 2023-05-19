@@ -1,0 +1,71 @@
+/* CSS for Admin Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px 50px;
+    padding: 0;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    display: inline;
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="hidden"] {
+    display: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    font-weight: bold;
+    margin-left: 10px;
+}
+select{
+    border: 1px solid black;
+    color: black;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
